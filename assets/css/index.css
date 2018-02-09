@@ -1,0 +1,230 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    min-height: 100vh;
+    margin-bottom: -36px;
+}
+
+#home .main-bg {
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+#home .main-bg .bg {
+    width: 500%;
+    max-height: 550px;
+    margin: 0 auto;
+}
+
+#home .main-bg .bg figure {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#home .main-bg .bg figure img {
+    height: 100%;
+    width: 100%;
+}
+
+#home a {
+    width: 45px;
+    margin-top: 56px;
+    cursor: pointer;
+}
+
+#home i {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.navbar-default {
+    height: 56px;
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 15px 3px rgba(149,152,154,1);
+    -moz-box-shadow: 0px 1px 15px 3px rgba(149,152,154,1);
+    box-shadow: 0px 1px 15px 3px rgba(149,152,154,1);
+}
+
+.navbar-default .navbar-brand {
+    margin-top: 4px;
+}
+
+.navbar-default .navbar-brand span {
+    color: #FF5722;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-collapse li {
+    height: 56px;
+    width: 115px;
+    text-align: center;
+}
+
+.navbar-default .navbar-collapse li.pesan {
+    width: 135px;
+}
+
+.navbar-default .navbar-collapse li a {
+    padding-top: 20px;
+    color: #95989A;
+    font-family: 'Roboto', sans-serif;
+    height: 56px;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-collapse li a i {
+    padding-right: 10px;
+    font-size: 14px;
+    color: #95989A;
+}
+
+.navbar-default .navbar-collapse li a .badge {
+    margin-left: 5px;
+}
+
+.navbar-default .navbar-collapse li:hover a {
+    color: black;    
+    font-weight: 500;
+}
+
+.navbar-default .navbar-collapse li:hover a i {
+    color: black;
+}
+
+.navbar-default .navbar-collapse li a.aktif {
+    color: #FF5722;
+    font-weight: 500;
+    border-bottom: 2px solid #FF5722;
+    background-color: #F2F2F2;
+}
+
+.navbar-default .navbar-collapse li a.aktif i {
+    color: #FF5722;
+}
+
+#fitur {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#fitur .header span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FF5722;
+}
+
+#fitur .kanan span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #FF5722;
+}
+
+#fitur .fitur-utama {
+    margin-top: 30px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+#fitur .fitur-sub-main {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#fitur .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#fitur figure {
+    padding-top: 18px;
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(149,152,154,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(149,152,154,1);
+    box-shadow: 0px 0px 5px 0px rgba(149,152,154,1);
+    min-height: 275px;
+}
+
+#fitur .fitur-content {
+    padding: 30px;
+    text-align: center;
+    height: auto;
+}
+
+#fitur .fitur-content .fitur-image {
+    width: 100px;
+    height: 100px;
+    float: inherit;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FF5722;
+}
+
+#fitur .fitur-content .fitur-image img {
+    margin-top: 19px;
+    width: 50px;
+    height: 60px;
+}
+
+#fitur .fitur-content .fitur-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+#fitur .fitur-content .fitur-argument {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+footer.style-1 {
+    height: 36px;
+    padding-top: 9px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px -1px 15px 3px rgba(149,152,154,1);
+    -moz-box-shadow: 0px -1px 15px 3px rgba(149,152,154,1);
+    box-shadow: 0px -1px 15px 3px rgba(149,152,154,1);
+    text-align: center;
+}
+
+footer.style-1 .copyright {
+    color: #95989A;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-collapse li {
+        height: 50px;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #fitur .col-xs-6 {
+        width: 100%;
+    }
+}
